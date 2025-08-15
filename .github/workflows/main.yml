@@ -1,6 +1,7 @@
 name: ci
 
 on:
+  workflow_dispatch:   # Ermöglicht manuelles Starten über GitHub UI
   push:
     branches:
       - main
